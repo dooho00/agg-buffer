@@ -1,0 +1,90 @@
+{
+  "cora": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.5
+  },
+  "citeseer": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.7
+  },
+  "pubmed": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.7
+  },
+  "wiki_cs": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "right",
+    "dropout": 0.3
+  },
+  "co_photo": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.5
+  },
+  "co_computer": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.3
+  },
+  "co_cs": {
+    "hid_dim": [256],
+    "lr": 1e-3,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.2
+  },
+  "co_phy": {
+    "hid_dim": [64],
+    "lr": 1e-3,
+    "weight_decay": 5e-5,
+    "mp_norm": "both",
+    "dropout": 0.5
+  },
+  "arxiv": {
+    "hid_dim": [512],
+    "lr": 1e-2,
+    "weight_decay": 0.00005,
+    "mp_norm": "right",
+    "dropout": 0.5
+  },
+  "actor": {
+    "hid_dim": [64],
+    "lr": 1e-3,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.7
+  },
+  "chameleon": {
+    "hid_dim": [256],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.2,
+    "norm": "layer",
+    "use_linear": true
+  },
+  "squirrel": {
+    "hid_dim": [256],
+    "lr": 1e-2,
+    "weight_decay": 5e-4,
+    "mp_norm": "both",
+    "dropout": 0.2,
+    "norm": "layer",
+    "use_linear": true
+  }
+}

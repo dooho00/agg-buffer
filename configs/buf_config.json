@@ -1,0 +1,90 @@
+{
+  "cora": {
+    "hid_dim": [512],
+    "mp_norm": "both",
+    "dropedge": 0.5,
+    "dropout": 0.7,
+    "balance": 0.5
+  },
+  "citeseer": {
+    "hid_dim": [512],
+    "mp_norm": "both",
+    "dropedge": 0.2,
+    "dropout": 0.7,
+    "balance": 1.0
+  },
+  "pubmed": {
+    "hid_dim": [512],
+    "mp_norm": "both",
+    "dropedge": 0.2,
+    "dropout": 0.0,
+    "balance": 0.5
+  },
+  "wiki_cs": {
+    "hid_dim": [512],
+    "mp_norm": "right",
+    "dropedge": 0.2,
+    "dropout": 0.5,
+    "balance": 0.5
+  },
+  "co_photo": {
+    "hid_dim": [512],
+    "mp_norm": "both",
+    "dropedge": 0.5,
+    "dropout": 0.0,
+    "balance": 1.0
+  },
+  "co_computer": {
+    "hid_dim": [512],
+    "mp_norm": "both",
+    "dropedge": 0.5,
+    "dropout": 0.2,
+    "balance": 0.5
+  },
+  "co_cs": {
+    "hid_dim": [256],
+    "mp_norm": "both",
+    "dropedge": 0.2,
+    "dropout": 0.7,
+    "balance": 0.1
+  },
+  "co_phy": {
+    "hid_dim": [64],
+    "mp_norm": "both",
+    "dropedge": 0.2,
+    "dropout": 0.7,
+    "balance": 1.0
+  },
+  "arxiv": {
+    "hid_dim": [512],
+    "mp_norm": "right",
+    "dropedge": 0.5,
+    "dropout": 0.0,
+    "balance": 0.5
+  },
+  "actor": {
+    "hid_dim": [64],
+    "mp_norm": "both",
+    "dropedge": 0.5,
+    "dropout": 0.2,
+    "balance": 0.5
+  },
+  "chameleon": {
+    "hid_dim": [256],
+    "mp_norm": "both",
+    "norm": "layer",
+    "use_linear": true,
+    "dropedge": 0.7,
+    "dropout": 0.2,
+    "balance": 0.1
+  },
+  "squirrel": {
+    "hid_dim": [256],
+    "mp_norm": "both",
+    "norm": "layer",
+    "use_linear": true,
+    "dropedge": 0.7,
+    "dropout": 0.0,
+    "balance": 0.1
+  }
+}
