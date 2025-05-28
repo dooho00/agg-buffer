@@ -1,6 +1,6 @@
 # Aggregation Buffer: Revisiting DropEdge with a New Parameter Block
 
-Code for [Aggregation Buffer: Revisiting DropEdge with a New Parameter Block](arxiv link will be included) by Dooho Lee, Myeong Kong, Sagad Hamid, Cheonwoo Lee and Jaemin Yoo.
+Code for [Aggregation Buffer: Revisiting DropEdge with a New Parameter Block](https://arxiv.org/abs/2505.20840) by Dooho Lee, Myeong Kong, Sagad Hamid, Cheonwoo Lee and Jaemin Yoo.
 
 ## Overview
 
@@ -64,7 +64,15 @@ For reproducibility, example scripts used in our experiments are provided in the
 If you find our work useful, please cite the following:
 
 ```BibTeX
-
+@misc{lee2025aggregationbufferrevisitingdropedge,
+      title={Aggregation Buffer: Revisiting DropEdge with a New Parameter Block},
+      author={Dooho Lee and Myeong Kong and Sagad Hamid and Cheonwoo Lee and Jaemin Yoo},
+      year={2025},
+      eprint={2505.20840},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.20840},
+}
 ```
 
 ## Contact
