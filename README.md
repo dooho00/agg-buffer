@@ -64,13 +64,12 @@ For reproducibility, example scripts used in our experiments are provided in the
 If you find our work useful, please cite the following:
 
 ```BibTeX
-@inproceedings{
-lee2025aggregation,
-title={Aggregation Buffer: Revisiting DropEdge with a New Parameter Block},
-author={Dooho Lee and Myeong Kong and Sagad Hamid and Cheonwoo Lee and Jaemin Yoo},
-booktitle={Forty-second International Conference on Machine Learning},
-year={2025},
-url={https://openreview.net/forum?id=sUVOXjOglX}
+@inproceedings{lee2025aggregation,
+  title={Aggregation Buffer: Revisiting DropEdge with a New Parameter Block},
+  author={Dooho Lee and Myeong Kong and Sagad Hamid and Cheonwoo Lee and Jaemin Yoo},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=sUVOXjOglX}
 }
 ```
 
